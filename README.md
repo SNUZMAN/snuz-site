@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SNUZ — Site Officiel</title>
+
+  <!-- Style -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand brand-logo" href="#">SNUZ</a>
+      <nav class="nav" id="nav">
+        <a href="#home">Accueil</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Galerie</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle">☰</button>
+    </div>
+  </header>
+
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div>
+        <h1>Bienvenue sur le site officiel SNUZ</h1>
+        <p class="lead">Un site simple, rapide, moderne et entièrement personnalisé.</p>
+      </div>
+      <div class="hero-image">
+        <img src="https://picsum.photos/600/400?random=1" alt="">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SERVICES -->
+  <section id="services" class="section">
+    <div class="container">
+      <h2>Nos services</h2>
+      <div class="features-grid">
+        <div class="card">
+          <h3>Design moderne</h3>
+          <p>Un style unique pour votre image.</p>
+        </div>
+        <div class="card">
+          <h3>Performance</h3>
+          <p>Site rapide, sécurisé et optimisé.</p>
+        </div>
+        <div class="card">
+          <h3>Personnalisation</h3>
+          <p>Chaque détail est ajustable selon vos besoins.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="section alt">
+    <div class="container">
+      <h2>Galerie</h2>
+      <div class="gallery-grid">
+        <img src="https://picsum.photos/400/300?random=2">
+        <img src="https://picsum.photos/400/300?random=3">
+        <img src="https://picsum.photos/400/300?random=4">
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <form class="contact-form">
+        <label>Nom <input type="text" required></label>
+        <label>Email <input type="email" required></label>
+        <label>Message <textarea required></textarea></label>
+        <button class="btn" type="submit">Envoyer</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      © 2025 SNUZ. Tous droits réservés.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
